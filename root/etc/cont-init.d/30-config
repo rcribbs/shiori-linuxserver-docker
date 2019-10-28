@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+
+# create directories
+mkdir -p /config
+
+touch /config/shiori.db
+
+# permissions
+chown abc:abc /config/*
+chown abc:abc /config
